@@ -1,0 +1,13 @@
+body{
+    background: url("/img/bgimg.jpg");
+    background-size: 1300px 750px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-attachment:scroll;
+}
+
+h2{
+    display: inline;
+    color: white;
+    border: 2px dotted black;
+}

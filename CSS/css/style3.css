@@ -1,0 +1,162 @@
+body{
+    background: url("/img/bgimg.jpg");
+    /* background-size: 1300px 750px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-attachment:scroll;
+}
+
+.header{
+   
+}
+.header a{
+    border: 2px solid black;
+    display: inline-block;
+    color: white ;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 50px 25px 75px  50px;
+    margin-left: 50px;
+    /* margin-top: 40px; */
+    padding: 15px;
+    text-shadow: 4px 4px black;
+}
+.navbar{
+    /* width: 500px; */
+    /* width: 50%; */
+    max-width: 500px;
+    border: 15px solid green;
+    background-color: lightgray;
+    padding: 15px;
+    margin: auto;
+    outline: 15px solid blue;
+    /* font-family: monospace; */
+    font-family: 'Lobster', cursive;;
+    display: none;
+}
+.navbar p{
+    text-indent: 50px;
+    text-align: justify;
+    text-decoration: underline;
+    /* line-height: 1cm; */
+    letter-spacing: 2px;
+}
+
+#innerLink{
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 25px;
+    background-color: aqua;
+    border-radius: 10px 10px;
+    text-decoration: none;
+}
+#innerLink:link{
+    background-color: yellow;
+    color:black;
+}
+
+#innerLink:visited{
+    background-color: red;
+    color:white;
+}
+#innerLink:hover{
+    background-color: green;
+    color:white;
+}
+#innerLink:checked{
+    background-color: green;
+    color:white;
+}
+.listclass{
+    width: 30%;
+    margin: auto;
+    background-color: lightblue;
+    padding: 50px;
+    margin-top: 100px;
+    /* display: none; */
+    visibility: hidden;
+}
+.listclass ol li{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    background-color: red;
+}
+
+.mytable{
+    padding: 200px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+.tablecontiner{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    background-color: bisque;
+
+}
+
+.tablecontiner table{
+   border: 2px solid black;
+   border-collapse: collapse;
+
+}
+
+.tablecontiner table th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    background-color: green;
+    color: white;
+ }
+
+ .tablecontiner table td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    color: black;
+
+    background-color: wheat;
+ 
+ }
+
+ .mydisplay{
+     padding: 25px;
+     background-color: aqua;
+     position: sticky;
+     top: 0;
+ }
+ .float{
+    border: 3px solid black;
+    overflow:auto;
+ }
+ .float p {
+    text-align: center;
+ }
+
+ #myimage{
+    float: left;
+ }
+ /* .mytable div>table{
+     background-color: red;
+ } */
+ /* .mytable ~+{
+    background-color: red;
+
+    5 24   CSS COMBINATORS   HTML5, CSS3 _ Bootstrap 4 for Web Development   Bohubrihi
+} */
+
+/* .mytable ~{
+    background-color: red;
+} */
+
+.mytable {
+    background-color: red;
+    opacity: 0.5;
+}
+.mytable:hover {
+    
+    opacity: 0.5;
+}

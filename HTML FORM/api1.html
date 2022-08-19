@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+</head>
+<body>
+
+    <h1 id="empty"></h1>
+    <button type="button" onclick="myPostion()">Get Location</button>
+    <script>
+        var h = document.getElementById("empty")
+
+        function myPostion()
+        {
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(showlocation);
+            }
+        }
+
+        function showlocation(position)
+        {
+            // h.innerHTML="long: " + position.coords.longitude;
+            h.innerHTML=" long: " + position.coords.latitude;
+        }
+
+        // 90.4003584
+// 23.773184
+
+    </script>  
+    
+    <p draggable="true">this is arif</p>
+
+</body>
+</html>
